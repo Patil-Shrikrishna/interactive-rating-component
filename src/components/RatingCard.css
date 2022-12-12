@@ -1,0 +1,112 @@
+.rating-card-main-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 400px;
+    height: 400px;
+    background-color: hsl(212, 25%, 13%, 0.878);
+    padding: 40px;
+    color: white;    
+    border-radius: 16px;
+}
+.rating-card-main-container h2{
+    margin: 0;
+    padding-top: 32px;
+}
+.star-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    
+}
+.heading{
+    font-family: 'Overpass';
+    font-weight: 700;
+}
+.description{
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 24px;
+}
+.rating-star-container{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 32px;
+}
+
+.rating-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(217, 12%, 63%);
+    border: none;
+    
+}
+.selected-rating-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: hsl(216, 12%, 54%);
+    color: white;
+    border: none;
+    
+}
+.rating-number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.btn-submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(25, 97%, 53%);
+    border:none;
+    border-radius: 32px;
+    color: white;
+}
+.btn-submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+.btn-submit h3{
+    letter-spacing: 4px;
+}
+
+    @media screen and (max-width: 475px)  {
+        .rating-card-main-container{
+            width: 300px;
+            height: 350px;
+            padding: 24px;
+        }
+        .star-img{
+            height: 16px;
+            width: 16px;
+            padding: 16px;
+        }
+        .description{
+            font-size: 15px;
+        }        
+        .rating-number{
+            height: 40px;
+            width: 40px;
+        }
+        .rating-number h3{
+            font-size: 12px;
+        }
+    }

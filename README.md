@@ -28,7 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Active states btn](./src/screenshot/active-states-btn.png)
+![Active states](./src/screenshot/active-states.png)
+![Desktop design](./src/screenshot/desktop-design.png)
+![Desktop thank you state](./src/screenshot/desktop-thank-you-state.png)
+![Mobile design](./src/screenshot/mobile-design.png)
+![Mobile thank you state](./src/screenshot/mobile-thank-you-state.png)
 
 
 ### Links
@@ -39,11 +44,8 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
-- CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
 
 
 ## Available Scripts

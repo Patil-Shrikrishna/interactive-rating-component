@@ -1,0 +1,70 @@
+.thank-you-main-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 410px;
+    height: 410px;
+    background-color: hsl(212, 25%, 13%, 0.878);
+    padding: 40px;
+    color: white;    
+    border-radius: 16px;
+    justify-content: space-between;
+    text-align: center;
+}
+.thank-you-main-container h2{
+    margin: 0;
+    padding-top: 32px;
+}
+.illustrator-img{
+    display: flex;
+    align-self: center;
+    height: 120px;
+    width: 200px;
+    padding: 20px;
+}
+.thank-you-heading{
+    font-family: 'Overpass';
+    font-weight: 700;
+}
+.thank-you-description{
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(217, 12%, 63%);
+    line-height: 24px;
+}
+
+.selected-rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    border:none;
+    border-radius: 32px;
+    width: fit-content;
+    color: hsl(25, 97%, 53%);
+    align-self: center;
+}
+.selected-rating h3{
+    margin: 0;
+    padding: 5px 20px;
+    font-weight: 400;
+}
+
+    @media screen and (max-width: 475px)  {
+        .thank-you-main-container{
+            width: 300px;
+            height: 350px;
+            padding: 24px;
+        }
+        .illustrator-img{
+            height: 100px;
+            width: 140px;
+        }
+        .thank-you-description{
+            font-size: 14px;
+        }        
+        .selected-rating h3{
+            font-size: 15px;
+        }
+    }
